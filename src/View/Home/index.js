@@ -3,6 +3,7 @@ import NavBar from '../../Component/NavBar';
 import NormalCard  from '../../Component/NormalCard';
 import ShopCard from '../../Component/Cards';
 import ShowMap from '../../Component/Map';
+import FullCard from '../../Component/FullCard';
 const Home = () => {
   const [location, setLocation] = useState('');
   const [latLng, setLatLng] = useState({lat: 31.4252,lng:76.3354});
@@ -24,11 +25,40 @@ const Home = () => {
     setLatLng({lat: value.latitude, lng: value.longitude})
   },[setLatLng]);
   return (
-    <div className='container'>
+    <div className='container-fluid'>
       <NavBar onChange={handleInput} address={getAddress} value={location} />
       <div className='text-center home-div'>
-        <input type='text' className='form-control home-input' placeholder='search shop' />
+        <input type='text' className='form-control home-input' placeholder='Search' />
         <button className='btn btn-info btn-sm btn-home'>Search</button>
+      </div>
+      <div className='row'>
+          <div className= 'col-2 cat'>
+            <h5> Categories </h5>
+           
+            <div>One category</div>
+            <div>One category</div>
+            <div>One category</div>
+            <div>One category</div>
+            <div>One category</div>
+            </div>
+          <div className='col-10'>
+            <div className='row'>
+                <FullCard />
+                <FullCard />
+                <FullCard />
+                <FullCard />
+                <FullCard />
+                <FullCard />
+                <FullCard />
+            </div>
+                
+          </div>
+      </div>
+      <div className='category'>
+        
+         
+       
+      
       </div>
       <div className='map-product'>
         <div className='prodcuts'>

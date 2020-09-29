@@ -32,6 +32,25 @@
   flex-direction: raw;
   text-align: center;
 }
+.category{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: raw;
+}
+
+.category > .normal-card{
+  width: auto;
+}
+.cat{
+  text-align: center;
+  width: 50px;
+}
+.card-image{
+  height: 225px; 
+  width: 100%; 
+  display: block;
+}
 .prodcuts.shops {
   width: 700px;
   min-height: 300px;
