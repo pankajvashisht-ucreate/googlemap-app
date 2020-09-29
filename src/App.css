@@ -1,125 +1,132 @@
-.home-input{
-  width: 400px;
-  margin-top: 20px;
+.home-input {
+	width: 400px;
+	margin-top: 20px;
 }
-.btn-home{
-  height: 38px;
-    margin-top: 20px;
-    margin-left: 10px;
+.btn-home {
+	height: 38px;
+	margin-top: 20px;
+	margin-left: 10px;
 }
-.google{
-  width: 300px !important;
+.loading {
+	text-align: center;
+}
+.google {
+	width: 300px !important;
+}
+.catge {
+	cursor: pointer;
 }
 #maps {
-  height: auto;
-  width: 700px;
-  overflow: hidden;
-  z-index: 0;
-  top: 0;
-  left: 20;
-  position: fixed;
+	height: auto;
+	width: 700px;
+	overflow: hidden;
+	z-index: 0;
+	top: 0;
+	left: 20;
+	position: fixed;
 }
-.map-product{
-  display: flex;
-  flex-wrap: wrap;
-  margin: 20px;
-  justify-content: center;
+.map-product {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px;
+	justify-content: center;
 }
-.prodcuts{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: raw;
-  text-align: center;
+.prodcuts {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: raw;
+	text-align: center;
 }
-.category{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  flex-direction: raw;
+.category {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	flex-direction: raw;
 }
 
-.category > .normal-card{
-  width: auto;
+.category > .normal-card {
+	width: auto;
 }
-.cat{
-  text-align: center;
-  width: 50px;
+.cat {
+	text-align: center;
+	width: 50px;
 }
-.card-image{
-  height: 225px; 
-  width: 100%; 
-  display: block;
+.card-image {
+	height: 225px;
+	width: 100%;
+	display: block;
 }
 .prodcuts.shops {
-  width: 700px;
-  min-height: 300px;
+	width: 700px;
+	min-height: 300px;
 }
-.card.search{
-  width: 100%;
-  height: 80px;
+.card.search {
+	width: 100%;
+	height: 80px;
 }
-.card-maps{
-  margin: 0;
-  padding: 0;
-  z-index: 1;
-  display: flex;
-  height: 20vh;
+.card-maps {
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+	display: flex;
+	height: 20vh;
 }
-.card{
-  margin: 10px;
+.card {
+	margin: 10px;
 }
-.card-text{
-
-}.normal-card{
-  width: 100%;
+.card-text {
 }
-.logo{
-  height: 54px;
+.normal-card {
+	width: 100%;
+}
+.logo {
+	height: 54px;
 }
 .div-rec {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  overflow-x: auto;
-  white-space: nowrap;
-  margin-bottom:  50px;
-}.div-search{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  overflow-x: auto;
-  white-space: nowrap;
-  margin-bottom:  50px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	overflow-x: auto;
+	white-space: nowrap;
+	margin-bottom: 50px;
 }
-.google-map{
-  margin: 0;
-  padding: 0;
-  z-index: 1;
-  display: flex;
-  margin-left:20px ;
-  margin-top:30px;
-  height: 50vh;
-  border:1px solid gray;
+.div-search {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	overflow-x: auto;
+	white-space: nowrap;
+	margin-bottom: 50px;
+}
+.google-map {
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+	display: flex;
+	margin-left: 20px;
+	margin-top: 30px;
+	height: 50vh;
+	border: 1px solid gray;
 }
 /* Optional: Makes the sample page fill the window. */
 html,
 body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
-.home-div{
-  display: flex;
-    justify-content: center;
+.home-div {
+	display: flex;
+	justify-content: center;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }
